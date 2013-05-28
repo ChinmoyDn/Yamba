@@ -1,0 +1,1 @@
+It is  a twitter app to receive tweets and update tweets. This app is made as an exercise along with the tutorial from http://marakana.com/techtv/android_bootcamp_screencast_series.html.
