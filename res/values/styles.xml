@@ -1,0 +1,33 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All c165DA5165DA5165DA5165DA5165DA5165DA5165DA5165DA5165DA5165DA5165DA5ustomizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <color name="my_blue_bg">#165DA5</color>
+    <color name="my_textField_bg">#A1C0DE</color>
+    <color name="my_updateBut_bg">#F0F5FF</color>
+
+    <style name="styleName" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/topMargin_status_margin</item>
+        <item name="android:layout_marginTop">@dimen/topMargin_status_margin</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+    <style name="input_text_style" parent="android:Widget.Holo.Light.EditText">
+        <item name="android:background">@color/my_textField_bg</item>
+        <item name="android:ems">10</item>
+    </style>
+</resources>
